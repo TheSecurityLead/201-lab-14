@@ -1,1 +1,69 @@
-/* TODO: Make it awesome */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #6dd5ed, #2193b0);
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #fff;
+  color: #333;
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #007bff;
+}
+
+main {
+  padding: 2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background: #fff;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* For index.html */
+main section img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+  border: 3px solid #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+/* For chart.html */
+#chart-section {
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+  }
+}
